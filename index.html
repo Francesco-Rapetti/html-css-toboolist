@@ -11,8 +11,10 @@
 <body>
     <!-- header -->
     <header>
-        <img src="img/Logo.png" alt="Boolean logo">
-        <h1>Toboolist</h1>
+        <a href="index.html">
+            <img src="img/Logo.png" alt="Boolean logo">
+            <h1>Toboolist</h1>
+        </a>
     </header>
 
     <!-- main -->
@@ -29,21 +31,62 @@
                         <span>
                             <h2>New Task</h2>
                         </span>
-                        <input type="checkbox" id="check" checked="check">
-                        <label for="check">Quarterly Newsletter</label>
-                        <span class="tag" id="blue">Editorial</span>
+                        <div class="item">
+                            <input type="checkbox" id="quarterly" checked="check">
+                            <label for="quarterly">Quarterly Newsletter</label>
+                            <span class="tag" id="blue">Editorial</span>
+                        </div>
                     </li>
 
                     <li>
                         <span>
                             <h2>Today</h2>
                         </span>
+                        <div class="item">
+                            <input type="checkbox" id="recruiting" checked="check">
+                            <label for="recruiting">Recruiting blog post</label>
+                            <span class="tag" id="blue">Editorial</span>
+                        </div>
+                        <div class="item">
+                            <input type="checkbox" id="mobile" checked="check">
+                            <label for="mobile">Mobile app launch</label>
+                            <span class="tag" id="purple">Q1 Goals</span>
+                        </div>
+                        <div class="item">
+                            <input type="checkbox" id="interview">
+                            <label for="interview">Interview John H.</label>
+                            <span class="tag" id="teal">Recruiting</span>
+                        </div>
+                        <div class="item">
+                            <input type="checkbox" id="summit" checked="check">
+                            <label for="summit">Summit update to mobile storefronts</label>
+                            <span class="tag" id="orange">Mobile</span>
+                        </div>
                     </li>
 
                     <li>
                         <span>
                             <h2>Upcoming</h2>
                         </span>
+                        <div class="item">
+                            <input type="checkbox" id="meeting">
+                            <label for="meeting">Schedule meeting with Alex</label>
+                        </div>
+                        <div class="item">
+                            <input type="checkbox" id="homepage" checked="check">
+                            <label for="homepage">Homepage refresh</label>
+                            <span class="tag" id="pink">Website</span>
+                        </div>
+                        <div class="item">
+                            <input type="checkbox" id="members" checked="check">
+                            <label for="members">Onboard new Sales team members</label>
+                            <span class="tag" id="green">Sales</span>
+                        </div>
+                        <div class="item">
+                            <input type="checkbox" id="review" checked="check">
+                            <label for="review">Review editorial calendar</label>
+                            <span class="tag" id="blue">Editorial</span>
+                        </div>
                     </li>
                 </ul>
             </section>
